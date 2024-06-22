@@ -6,4 +6,4 @@ check_task:
     folder: react-tetris
     fingerprint_script: cat package-lock.json
     populate_script: npm install
-  test_script: npm run build
+  test_script: npm run build | exit 1
